@@ -19,3 +19,5 @@ console.log(nomeCompleto);
 //let break = "parar"; >> Forma incorreta de declarar variável (break)
 let break1 = "parar";
 console.log(break1);
+nome = "Fernandes"; //Não é necessário declarar "let" novamente
+console.log(nome);
