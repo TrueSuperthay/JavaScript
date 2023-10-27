@@ -1,0 +1,11 @@
+let item1 = prompt("Informe o valor do item 1");
+let item2 = prompt("Informe o valor do item 2");
+let item3 = prompt("Informe o valor do item 3");
+let item4 = prompt("Informe o valor do item 4");
+let maximo = Math.max(item1, item2, item3, item4);
+let minimo = Math.min(item1, item2, item3, item4);
+console.log(`O maior valor é ${maximo} e o menor valor é ${minimo}`);
+let arredondar = Math.round(5.3333);
+console.log(`Arredondado: ${arredondar}`);
+let arredondarParaCima = Math.ceil(5.3333);
+console.log(`Arredondado para cima: ${arredondarParaCima}`);
