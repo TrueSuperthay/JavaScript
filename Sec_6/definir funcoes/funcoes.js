@@ -15,3 +15,17 @@ function imprimePrompt(num){
 }
 imprimePrompt(num);
 
+const soma = function(a, b){
+    return a + b;
+}
+console.log(soma(3, 5));
+
+// escopo
+
+let x = 10;
+function numero () {
+    let x = 28;
+    console.log(x);
+}
+console.log(x);
+numero();
